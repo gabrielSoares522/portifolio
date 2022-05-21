@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Navegacao from "./Containers/Navegacao";
+import './index.css';
 
-console.log(app);
 ReactDOM.render(
-(<p>Teste</p>),app);
+<Navegacao/>,app);
