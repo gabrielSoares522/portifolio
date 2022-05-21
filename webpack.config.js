@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
+    devtool:"source-map",
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'docs'), /* define the output path */
@@ -14,6 +15,10 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                 }
+            },
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
             }
         ]
     },
