@@ -1,6 +1,7 @@
 import React from "react";
-import LinkNavegacao from "../Components/LinkNavegacao";
-import secoes from "../Data/secoes.jsx";
+import LinkNavegacao from "../../Componentes/LinkNavegacao/LinkNavegacao.jsx";
+import secoes from "../../Data/secoes.jsx";
+import "./style.css";
 
 const Navegacao = () => {
     return (

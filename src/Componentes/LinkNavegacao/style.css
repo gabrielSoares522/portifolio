@@ -1,0 +1,9 @@
+
+li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+}
+li a:hover{
+    background-color: #d5dce2;
+}

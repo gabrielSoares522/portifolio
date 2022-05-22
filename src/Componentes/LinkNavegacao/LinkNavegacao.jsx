@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css";
 const LinkNavegacao = (props) => {
     const secao = props.secao;
     return (
