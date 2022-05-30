@@ -1,0 +1,19 @@
+.bloco-projeto{
+    border: 1px solid #ffffff;
+    margin: 5%;
+    width: 40vh;
+    height: 40vh;
+}
+.bloco-projeto img{
+    width: 100%;
+    height: 20vh;
+
+}
+.bloco-projeto:nth-child(odd){
+    margin-left: 50px;
+    background-color: aqua;
+}
+.bloco-projeto:nth-child(even){
+    background-color: blueviolet;
+    align-self: flex-end;
+}

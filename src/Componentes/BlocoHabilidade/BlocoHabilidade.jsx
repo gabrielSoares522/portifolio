@@ -1,8 +1,11 @@
 import React from "react";
 import "./style.css";
 
-const BlocoHabilidade = () => {
+const BlocoHabilidade = (props) => {
     return (
-    <br/>);
+        <div className="bloco-habilidade">
+            <img src={props.img} alt={props.titulo} />
+            <h3>{props.titulo}</h3>
+        </div>);
 }
 export default BlocoHabilidade;

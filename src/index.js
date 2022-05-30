@@ -9,7 +9,7 @@ import './index.css';
 
 const App = () => {
     return (
-    <div>
+    <div className="conteudo">
         <Navegacao />
         <Sobre />
         <Habilidades />

@@ -4,3 +4,15 @@
 body{
     margin: 0;
 }
+#app{
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

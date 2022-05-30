@@ -5,7 +5,7 @@ import "./style.css";
 
 const Navegacao = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar">
             <ul>
                 {secoes.map(item => <LinkNavegacao secao={item} />)}
             </ul>

@@ -1,8 +1,8 @@
 
 .container{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 5vh 0;
     width: 90%;
+    min-height: 90vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,13 @@
     align-items: center;
 }
 
+#sobre{
+    height: 80vh;
+    background-color: antiquewhite;
+}
+h2{
+    text-align: center;
+}
 .perfil{
     width: 300px;
     height: 300px;
@@ -20,4 +27,49 @@
     font-size: 30px;
     font-weight: bold;
     color: #2c3e50;
+}
+
+.controle-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.lista-habilidades{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mover:hover{
+    cursor: pointer;
+}
+.mover img{
+    width: 10vw;
+    height: 10vw;
+}
+
+.card-habilidade{
+    padding: 10px;
+    width: 50%;
+    align-self: start;
+}
+
+#projetos{
+    background-color: #2c3e50;
+    display: block;
+    justify-content: none;
+    align-items: none;
+}
+.lista-projetos{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
