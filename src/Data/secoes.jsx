@@ -1,3 +1,3 @@
-const secoes = ["SOBRE", "HABILIDADES", "PROJETOS", "CONTATO"];
+const secoes = ["sobre", "habilidades", "projetos", "contato"];
 
 export default secoes;

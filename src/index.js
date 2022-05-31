@@ -5,6 +5,7 @@ import Sobre from "./Containers/Secoes/Sobre.jsx";
 import Contato from "./Containers/Secoes/Contato.jsx";
 import Habilidades from "./Containers/Secoes/Habilidades.jsx";
 import Projetos from "./Containers/Secoes/Projetos.jsx";
+import Rodape from "./Containers/Rodape/Rodape.jsx";
 import './index.css';
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
         <Sobre />
         <Habilidades />
         <Projetos />
-        <Contato />      
+        <Contato />
+        <Rodape />
     </div>);
 };
 
