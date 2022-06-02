@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-
 const BlocoHabilidade = (props) => {
     return (
         <div className="bloco-habilidade">

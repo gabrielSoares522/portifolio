@@ -6,9 +6,25 @@ import "./style.css";
 const Navegacao = () => {
     return (
         <nav className="navbar">
-            <ul>
-                {secoes.map(item => <LinkNavegacao secao={item} />)}
-            </ul>
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle"/>
+                    <label for="toggle" class="checkbox">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu">
+
+                    </div>
+                    <nav class="menu-items">
+                        <ul>
+                            {secoes.map(item => <LinkNavegacao secao={item} />)}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+           
         </nav>
     )
 }

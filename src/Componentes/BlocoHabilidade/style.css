@@ -1,19 +1,41 @@
-.bloco-projeto{
-    border: 1px solid #ffffff;
-    margin: 5%;
-    width: 40vh;
-    height: 40vh;
+.bloco-habilidade img{
+    height: 100px;
 }
-.bloco-projeto img{
-    width: 100%;
-    height: 20vh;
+.bloco-habilidade{
+    animation: surgir 1s ease-in-out 1;
+}
+.bloco-habilidade:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+@keyframes destacar {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+@keyframes normalizar{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes surgir {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
-}
-.bloco-projeto:nth-child(odd){
-    margin-left: 50px;
-    background-color: aqua;
-}
-.bloco-projeto:nth-child(even){
-    background-color: blueviolet;
-    align-self: flex-end;
+.bloco-habilidade h3{
+    text-align: center;
 }
