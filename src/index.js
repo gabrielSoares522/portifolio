@@ -7,7 +7,7 @@ import Habilidades from "./Containers/Secoes/Habilidades.jsx";
 import Projetos from "./Containers/Secoes/Projetos.jsx";
 import Rodape from "./Containers/Rodape/Rodape.jsx";
 import './index.css';
-
+import './paletaCores.css';
 const App = () => {
     return (
     <div className="conteudo">

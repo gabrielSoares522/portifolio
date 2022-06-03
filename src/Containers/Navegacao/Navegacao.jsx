@@ -14,14 +14,12 @@ const Navegacao = () => {
                         <div class="trace"></div>
                         <div class="trace"></div>
                     </label>
-                    <div class="menu">
-
-                    </div>
-                    <nav class="menu-items">
+                    <div className="menu"></div>
+                    <div class="menu-items">
                         <ul>
                             {secoes.map(item => <LinkNavegacao secao={item} />)}
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
            
