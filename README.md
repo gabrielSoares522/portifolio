@@ -7,9 +7,10 @@ Acesse o meu portifolio no seguinte [link](https://gabrielsoares522.github.io/po
     - [x] nome
     - [ ] descrição
     - [ ] banner
+    - [ ] baixar curriculo
 - [ ] seção tecnologias
-    - [ ] bloco de tecnologia
-    - [ ] lista de tecnologias
+    - [x] bloco de tecnologia
+    - [x] lista de tecnologias
 - [ ] seçao projetos
     - [ ] bloco de projetos
     - [ ] web application
@@ -24,7 +25,7 @@ Acesse o meu portifolio no seguinte [link](https://gabrielsoares522.github.io/po
         - [ ] jogo da velha
         - [ ] jogo da memória
     - [ ] desktop application
-- [ ] seção contato
-    - [ ] redes sociais
-    - [ ] email
-    - [ ] telefone
+- [x] seção contato
+    - [x] redes sociais
+    - [x] email
+    - [x] telefone
