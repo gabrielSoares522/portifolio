@@ -1,9 +1,8 @@
 :root{
     --height-nav: 10vh;
-    --nav-color: #505f6d;
 }
 .navbar{
-    background-color: var(--nav-color);
+    background-color: var(--cor-primaria);
     margin: 0;
     height: var(--height-nav);
     padding: 0;
@@ -18,8 +17,6 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
@@ -48,7 +45,7 @@ ul{
 .checkbox .trace{
     width: 90px;
     height: 10px;
-    background-color: #fff;
+    background-color: var(--cor-background);
     position: absolute;
     border-radius: 5px;
     transition: 0.5s ease-in-out;
@@ -133,12 +130,12 @@ ul{
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        box-shadow: 0px 0px 0px 0px var(--nav-color);
+        box-shadow: 0px 0px 0px 0px var(--cor-primaria);
         z-index: -1;
         transition: 400ms ease-in-out 0s;
     }
     #toggle:checked ~ .menu{
-        box-shadow: 0px 0px 0px 100vmax var(--nav-color);
+        box-shadow: 0px 0px 0px 100vmax var(--cor-primaria);
         z-index: 1;
     
     }

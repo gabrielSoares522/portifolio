@@ -5,3 +5,17 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.bloco-contatos li a{
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-primaria);
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+.bloco-contatos li a:hover{
+    background-color: var(--cor-texto-primaria);
+    color: var(--cor-primaria);
+}

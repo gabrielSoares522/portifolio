@@ -4,5 +4,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(175, 175, 175);
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-primaria);
 }

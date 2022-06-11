@@ -3,13 +3,14 @@
 }
 body{
     margin: 0;
+    background-color: var(--cor-background);
 }
 #app{
     width: 100%;
     height: 100%;
 }
 
-#conteudo{
+.conteudo{
     width: 100%;
     min-height: 100%;
     display: flex;

@@ -38,4 +38,5 @@
 
 .bloco-habilidade h3{
     text-align: center;
+    color: var(--cor-texto-secundaria);
 }

@@ -1,0 +1,22 @@
+#sobre{
+    height: 80vh;
+    background-color: var(--cor-secundaria);
+}
+.perfil,.titulo,.descricao{
+    color: var(--cor-texto-secundaria);
+}
+
+.perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 20px;
+}

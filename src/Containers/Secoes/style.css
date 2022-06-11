@@ -1,4 +1,3 @@
-
 .container{
     padding: 5vh 0;
     width: 90%;
@@ -9,26 +8,10 @@
     justify-content: center;
     align-items: center;
 }
-
-#sobre{
-    height: 80vh;
-    background-color: antiquewhite;
-}
-h2{
+h2,h3{
     text-align: center;
+    color: var(--cor-texto-secundaria);
 }
-.perfil{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
-
-.titulo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
 .controle-lista{
     display: flex;
     flex-direction: row;
@@ -68,7 +51,7 @@ h2{
 }
 
 #projetos{
-    background-color: #2c3e50;
+    background-color: var(--cor-secundaria);
     display: block;
     justify-content: none;
     align-items: none;
@@ -78,4 +61,11 @@ h2{
     display: flex;
     flex-direction:column;
     justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }

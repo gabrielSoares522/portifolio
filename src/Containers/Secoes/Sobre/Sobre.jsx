@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-import BlocoContatos from "../../Componentes/BlocoContatos/BlocoContatos";
+import BlocoContatos from "../../../Componentes/BlocoContatos/BlocoContatos";
 const Sobre = () => {
     return (
     <section id="sobre" className="container">

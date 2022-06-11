@@ -2,14 +2,19 @@ import React from "react";
 import "./style.css";
 
 const BlocoProjeto = (props) => {
-    const { projeto } = props;
+    const { banner,titulo,descricao,repositorio,demo } = props.projeto;
+    const openLink = (link) => {
+        window.open(link, "_blank");
+    }
     return (
         <div className="bloco-projeto">
-            <div className="bloco-projeto-img">
-                <img src={projeto.banner} alt={projeto.titulo} />
+            <div className="banner" style={{backgroundImage: `url(${banner})`}}></div>
+            <h3>{titulo}</h3>
+            <p>{descricao}</p>
+            <div className="botoes">
+                {demo && <button onClick={openLink(demo)}>VER DEMONSTRAÇÃO</button>}
+                <button onClick={openLink(repositorio)}>ACESSAR REPOSITORIO</button>
             </div>
-            <h3>{projeto.titulo}</h3>
-            <button>Saiba mais</button>
         </div>);
 }
 export default BlocoProjeto;
