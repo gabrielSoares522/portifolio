@@ -9,6 +9,7 @@ const Sobre = () => {
         <h1 className="titulo">Gabriel C. Soares</h1>
         <BlocoContatos />
         <p className="descricao">Estudante de Análise de sistemas FATEC</p>
+        <a href="/pdf/_Curriculo_gabrielSoares.pdf" download>Baixar Currículo</a>
     </section>);
 }
 export default Sobre;
