@@ -1,6 +1,6 @@
 .container{
     padding: 5vh 0;
-    width: 90%;
+    width: 100%;
     min-height: 90vh;
     margin: 0 auto;
     display: flex;
@@ -12,14 +12,22 @@ h2,h3{
     text-align: center;
     color: var(--cor-texto-secundaria);
 }
-.controle-lista{
+
+.box-habilidades{
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding:10px;
+    margin: auto;
+    width: 1000px;
+}
+.cabecalho-habilidades
+{
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    
-    align-items: center;
     width: 100%;
-    margin-top: 20px;
+
 }
 
 .lista-habilidades{
@@ -36,22 +44,18 @@ h2,h3{
     cursor: pointer;
 }
 .mover img{
-    width: 10vw;
-    height: 10vw;
+    width: 55px;
+    height: 55px;
     transition: 0.3s;
 }
 .mover:hover img{
     transform: scale(1.2);
 }
 
-.card-habilidade{
-    padding: 10px;
-    width: 50%;
-    align-self: start;
-}
+
 
 #projetos{
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     display: block;
     justify-content: none;
     align-items: none;
@@ -62,10 +66,19 @@ h2,h3{
     flex-direction:column;
     justify-content: center;
 }
+@media only screen and (max-width: 1650px) {
+    .container{
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 768px) {
     .container{
         width: 98%;
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+@media only screen and (max-width: 550px) {
+
 }

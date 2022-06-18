@@ -77,3 +77,23 @@
     box-shadow: none;
     transform: translateY(0);
 }
+
+
+@media only screen and (max-width: 550px) {
+    .bloco-projeto{
+        width: 100%;
+        align-self: center;
+        font-size: 12px;
+    }
+    .bloco-projeto:nth-child(even){
+        align-self: center;
+    }
+    .botoes{
+        width: 98%;
+    }
+    .botoes > button {
+        min-height: 30px;
+        padding: 4px 0;
+        font-size: 12px;
+    }
+}

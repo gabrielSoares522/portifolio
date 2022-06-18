@@ -1,11 +1,21 @@
 #sobre{
     height: 80vh;
-    background-color: var(--cor-secundaria);
 }
 .perfil,.titulo,.descricao{
     color: var(--cor-texto-secundaria);
 }
 
+.apresentacao{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.meu-nome{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .perfil{
     width: 300px;
     height: 300px;
@@ -15,8 +25,23 @@
 .titulo{
     font-size: 30px;
     font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .descricao{
     font-size: 20px;
+}
+
+.baixar-curriculo{
+    text-decoration: none;
+    color: var(--cor-texto-primaria);
+    background-color: var(--cor-primaria);
+    
+}
+.sobre-container{
+    margin-top: 20px;
+    padding: 20px 30%;
+    background-color: var(--cor-primaria);
+    width: 40%;
 }

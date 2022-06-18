@@ -2,13 +2,7 @@ import React,{Component,Fragment} from "react";
 import BlocoHabilidade from "../../Componentes/BlocoHabilidade/BlocoHabilidade.jsx";
 import listaHabilidades from "../../Data/habilidades.jsx";
 import "./style.css";
-/*<div className="card-habilidade">
-            <div className="card-habilidade-img">
-                <img src="./img/html5.png" alt="html5"/>
-                <h3>HTML5</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita, incidunt saepe atque ullam accusantium a quibusdam fugit unde temporibus pariatur tempora vitae corrupti tenetur, magnam ea ipsum, reiciendis corporis.</p>
-            </div>
-        </div>*/
+
 class Habilidades extends Component  {
     constructor(props) {
         super(props);
@@ -47,20 +41,26 @@ class Habilidades extends Component  {
     return (
     <Fragment>
     <section id="habilidades" className="container">
-        <h2>Habilidades</h2>
-        <div className="controle-lista">
-            <button className="mover" onClick={this.moverEsquerda}>
-                <img src = "./svg/seta-esquerda.svg" alt="esquerda"/>
-            </button>
+        <div className="box-habilidades">
+            <div className="cabecalho-habilidades">
+                <h2>Habilidades</h2>
+                <div className="navegacao-habilidades">
+                    <button className="mover" onClick={this.moverEsquerda}>
+                        <img src = "./svg/seta-esquerda.svg" alt="esquerda"/>
+                    </button>
+                    <button className="mover" onClick={this.moverDireita}>
+                        <img src = "./svg/seta-direita.svg" alt="direita"/>
+                    </button>
+                </div>
+            </div>
             <div className="lista-habilidades">
                 {this.state.subListaHabilidades.map(habilidade => {
                     return <BlocoHabilidade key={"habilidade -"+habilidade.titulo} titulo={habilidade.titulo} img={habilidade.img} />
                 })}
             </div>
-            <button className="mover" onClick={this.moverDireita}>
-                <img src = "./svg/seta-direita.svg" alt="direita"/>
-            </button>
         </div>
+        
+        
         
     </section>
     </Fragment>);
