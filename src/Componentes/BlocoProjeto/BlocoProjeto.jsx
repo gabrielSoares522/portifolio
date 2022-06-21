@@ -7,13 +7,14 @@ const BlocoProjeto = (props) => {
         window.open(link, "_blank");
     }
     return (
-        <div className="bloco-projeto">
-            <div className="banner" style={{backgroundImage: `url(${banner})`}}></div>
-            <h3>{titulo}</h3>
-            <p>{descricao}</p>
-            <div className="botoes">
-                {demo && <button onClick={openLink(demo)}>VER DEMONSTRAÇÃO</button>}
-                <button onClick={openLink(repositorio)}>ACESSAR REPOSITORIO</button>
+        <div className="bloco-projeto" style={{backgroundImage: `url(${banner})`}}>
+            <div className="conteudo-projeto">
+                <h3>{titulo}</h3>
+                <p>{descricao}</p>
+                <div className="botoes">
+                    {demo && <button onClick={openLink(demo)}>VER DEMONSTRAÇÃO</button>}
+                    <button onClick={openLink(repositorio)}>ACESSAR REPOSITORIO</button>
+                </div>
             </div>
         </div>);
 }
